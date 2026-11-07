@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>You're Invited</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="stage">
+  <div id="envelope">
+    <div id="pocket"></div>
+    <div id="flapwrap"><div id="flap"></div></div>
+    <button id="seal" aria-label="Open invitation">
+      <span class="half l"></span><span class="half r"></span>
+      <span class="crack"></span>
+    </button>
+    <p id="hint">Tap the seal to open</p>
+  </div>
+  <main id="card">
+    <section class="hero"><p class="small" id="tagline"></p><h1 id="names"></h1><p id="date" class="big"></p></section>
+    <section><h2>Venue</h2><p id="vname" class="big"></p><p id="vaddr"></p><a id="map" class="btn" target="_blank" rel="noopener">Open in Maps</a></section>
+    <section><h2>Schedule</h2><ul id="sched"></ul></section>
+    <section><h2>RSVP</h2><p id="deadline" class="small"></p>
+      <form id="rsvp"><input name="name" placeholder="Your name" required>
+      <select name="attend"><option>Joyfully accepts</option><option>Regretfully declines</option></select>
+      <input name="guests" type="number" min="1" max="10" value="1">
+      <textarea name="note" placeholder="A note for the couple"></textarea>
+      <button class="btn">Send RSVP</button><p id="rsvpmsg" class="small"></p></form></section>
+    <section><a id="ics" class="btn">Add to Calendar</a></section>
+    <footer class="small">With love</footer>
+  </main>
+  <button id="music" hidden aria-label="Toggle music">♪</button><audio id="audio" loop></audio>
+</div>
+<script src="app.js"></script></body></html>

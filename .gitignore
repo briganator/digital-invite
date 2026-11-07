@@ -1,0 +1,5 @@
+frames/
+shots/
+test.js
+node_modules/
+package*.json

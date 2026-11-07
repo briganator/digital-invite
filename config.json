@@ -1,0 +1,17 @@
+{
+  "names": ["Addy", "Oakley"],
+  "monogram": ["A", "O"],
+  "tagline": "Together with their families, invite you to celebrate their marriage",
+  "dateDisplay": "April __, 2027 (PLACEHOLDER)",
+  "startISO": "2027-04-17T16:00:00",
+  "endISO": "2027-04-17T22:00:00",
+  "venue": { "name": "Venue Name (PLACEHOLDER)", "address": "Venue Address (PLACEHOLDER)", "mapUrl": "" },
+  "schedule": [
+    { "time": "4:00 PM", "item": "Ceremony (PLACEHOLDER)" },
+    { "time": "5:00 PM", "item": "Cocktail Hour (PLACEHOLDER)" },
+    { "time": "6:00 PM", "item": "Dinner & Dancing (PLACEHOLDER)" }
+  ],
+  "rsvp": { "email": "", "deadline": "RSVP by PLACEHOLDER" },
+  "music": "",
+  "colors": { "blush": "#e8c4c4", "mauve": "#b58a93", "deep": "#7d5560", "seal": "#8e3b46", "card": "#fbf6f1", "ink": "#4a3438" }
+}
