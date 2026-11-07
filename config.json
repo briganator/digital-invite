@@ -1,17 +1,66 @@
 {
-  "names": ["Addy", "Oakley"],
-  "monogram": ["A", "O"],
+  "names": [
+    "Addy",
+    "Oakley"
+  ],
+  "monogram": [
+    "A",
+    "O"
+  ],
   "tagline": "Together with their families, invite you to celebrate their marriage",
   "dateDisplay": "April __, 2027 (PLACEHOLDER)",
   "startISO": "2027-04-17T16:00:00",
   "endISO": "2027-04-17T22:00:00",
-  "venue": { "name": "Venue Name (PLACEHOLDER)", "address": "Venue Address (PLACEHOLDER)", "mapUrl": "" },
+  "venue": {
+    "name": "Venue Name (PLACEHOLDER)",
+    "address": "Venue Address (PLACEHOLDER)",
+    "mapUrl": ""
+  },
   "schedule": [
-    { "time": "4:00 PM", "item": "Ceremony (PLACEHOLDER)" },
-    { "time": "5:00 PM", "item": "Cocktail Hour (PLACEHOLDER)" },
-    { "time": "6:00 PM", "item": "Dinner & Dancing (PLACEHOLDER)" }
+    {
+      "time": "4:00 PM",
+      "item": "Ceremony (PLACEHOLDER)"
+    },
+    {
+      "time": "5:00 PM",
+      "item": "Cocktail Hour (PLACEHOLDER)"
+    },
+    {
+      "time": "6:00 PM",
+      "item": "Dinner & Dancing (PLACEHOLDER)"
+    }
   ],
-  "rsvp": { "email": "", "deadline": "RSVP by PLACEHOLDER" },
+  "rsvp": {
+    "email": "",
+    "deadline": "RSVP by PLACEHOLDER"
+  },
   "music": "",
-  "colors": { "blush": "#e8c4c4", "mauve": "#b58a93", "deep": "#7d5560", "seal": "#8e3b46", "card": "#fbf6f1", "ink": "#4a3438" }
+  "theme": "blush",
+  "sealColor": "burgundy",
+  "particles": "gold",
+  "countdown": true,
+  "_options": {
+    "theme": [
+      "blush",
+      "sage",
+      "navy",
+      "ivory"
+    ],
+    "sealColor": [
+      "burgundy",
+      "blush",
+      "gold",
+      "sage",
+      "navy",
+      "black"
+    ],
+    "particles": [
+      "gold",
+      "petals",
+      "none"
+    ],
+    "music": "URL to an audio file you have rights to (mp3); blank hides the button",
+    "url": "add ?to=Guest%20Name to personalize, ?theme=sage&seal=gold to preview"
+  },
+  "musicAutoOnOpen": true
 }
